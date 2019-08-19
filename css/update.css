@@ -1,0 +1,64 @@
+#nav{
+  background: #343A40;
+  background: -moz-radial-gradient(center, #343A40 0%, #6E6E6E 0%, #343A40 100%);
+  background: -webkit-radial-gradient(center, #343A40 0%, #6E6E6E 0%, #343A40 100%);
+  background: radial-gradient(ellipse at center, #343A40 0%, #6E6E6E 0%, #343A40 100%);
+}
+
+#nav-title{
+  color: #FFFFFF;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #335913, 0 -10px 20px #335913, 0 -18px 40px #335913;
+}
+
+#title{
+  border-right: 1px solid;
+  border-color: #6C6C6C;
+  width: 21%; 
+}
+
+footer{
+  margin-top: 70px;
+  height: 100px;
+  background: #343A40;
+  background: -moz-radial-gradient(center, #343A40 0%, #6E6E6E 0%, #343A40 100%);
+  background: -webkit-radial-gradient(center, #343A40 0%, #6E6E6E 0%, #343A40 100%);
+  background: radial-gradient(ellipse at center, #343A40 0%, #6E6E6E 0%, #343A40 100%);
+}
+
+#header{
+  background-image: url('https://cdn.pixabay.com/photo/2015/05/15/14/48/fireworks-768706_1280.jpg');
+  transition: background-image 1s ease-in-out;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 550px;
+  height: 550px;
+  margin-top: -20px;
+}
+
+#input{
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+#legend{
+  margin-top: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E5E5E5;
+}
+
+#area{
+	font-size: 13px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+#input1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#legend-title{
+	width: auto;
+}
+

@@ -1,0 +1,20 @@
+body{
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+td,tr,th,h3,p,hr, label{
+    color: aqua;
+}
+.border{
+   border-color: aqua;
+   padding: 20px;
+   border-radius: 5px;
+}

@@ -1,0 +1,166 @@
+1. INDEX PAGE
+===============================================
+	- Navbar:	Branding, Login, Register
+	- Welcome Message: running from right to left
+	- Hero Section: Video (autorun, loop)
+
+	- 3 Sections:
+		- upcoming events (3-5)
+		- newest groups (3-5)
+		- popular categories (3-5)
+
+
+2. OPTIONS/CHOICE PAGE (after login/register)
+===============================================
+	3 Buttons for actions
+		- create group
+		- find group
+		- go to existing group (dropdown?)
+
+
+3. EVENTS PAGE
+===============================================
+	- list of upcoming events
+
+
+4. EVENT PAGE (specific one)
+===============================================
+	- all information of the event
+		name
+		location
+		time
+		description
+		...
+
+	- Google API
+
+
+5. GROUPS PAGE
+===============================================
+	- list of newest groups (last 10 days)
+
+
+6. GROUP PAGE (specific one)
+===============================================
+	- all information of the group
+		name
+		description
+		picture
+		group admin
+		members
+		...
+
+	- upcoming events of the group
+	- group comments
+
+	---------------
+	functionality:
+	---------------
+	- commenting
+	- button to apply for the group
+	- button to leave group
+
+
+7. CATEGORIES PAGE
+===============================================
+	- displays all categories
+
+	---------------
+	functionality:
+	---------------
+	- search function
+
+
+8. CATEGORY PAGE (specific one)
+===============================================
+	- displays all groups in this category
+
+	- speciel section for open vacancies at the top ?
+
+
+
+9. CREATE GROUP PAGE
+===============================================
+
+10. CREATE EVENT PAGE
+===============================================
+
+
+
+
+Styling: 	Bootstrap, if Stylsheets are necessary -> CSS
+
+
+
+
+CRUD WE NEED (roles: gen. - general Admin, group - group Admin, user)
+===============================================
+
+GROUPS
+------------------
+	CREATE 		all	
+	update		gen.A - all, group A - groups
+	delete		gen.A - all, group A - groups
+
+
+EVENT
+------------------
+	CREATE 		gen. + group Admin
+	update		gen.A - all, group A - groups
+	delete		gen.A - all, group A - groups
+
+
+COMMENTS
+------------------
+	CREATE 		gen.A - all, group A - groups, user - in their group
+	update		gen.A - all, group A - groups, user - his own
+	delete		gen.A - all, group A - groups, user - his own
+
+USERS (ACCOUNT)
+------------------
+	CREATE 		everyone
+	update		gen.Admin
+	delete		gen.Admin
+	Ban 		gen.Admin
+
+
+
+FOLDER STRUCTURE (+ Folder, - File)
+===============================================
+
++ FSWD70-Final-Project-teamfour
+  + additional info (documentation files)
+  	- diagram.png (UML)
+  	- pages.txt
+  	- ...
+
+  + include (controllers)
+  	- class.user.php
+  	- navbar.php
+  	- class_comment.php
+  	- class_group.php
+  	- class_event.php
+  	- 
+
+  + css - only one stylesheet (IMPORTANT - comments, documentation)
+  	- style.css
+
+  + web (for img and videos if we don't use links)
+    + video
+    + img
+    + js
+      - security.js
+
+  + database files
+  	- downloaded database
+  	- other sql files if we want to save certain queries for later use
+
+
+  directly inside FSWD70-Final-Project-teamfolder all page files so the paths are easy
+  - db_config.php
+  
+  - home.php
+  - index.php
+  - login.php
+  - registration.php
+

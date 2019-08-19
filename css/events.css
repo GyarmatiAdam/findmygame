@@ -1,0 +1,19 @@
+#search{
+	outline: none;
+}
+
+#search:focus{
+	border-color: #525558;
+	border-width: 1px;
+	box-shadow: 0px 0px 11px -1px rgba(82,85,88,1);
+}
+
+#legend{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E5E5E5;
+}
+
+#title-legend{
+	width: auto;
+}
